@@ -27,10 +27,10 @@ function RMidText() {
 
         {/* below button */}
         <div className="space-x-4 ">
-          <button className="rounded-lg border-[1px] border-black/50 px-6 py-1.5 text-sm hover:bg-amber-400 hover:border-none hover:text-white">
+          <button className="rounded-lg border-[1px] border-black/50 px-6 py-1.5 text-sm hover:bg-amber-400 hover:border-amber-400 hover:text-white">
             Add Details
           </button>
-          <button className="rounded-lg border-[1px] border-black/50 px-6 py-1.5 text-sm  hover:bg-amber-400 hover:border-none hover:text-white">
+          <button className="rounded-lg border-[1px] border-black/50 px-6 py-1.5 text-sm  hover:bg-amber-400 hover:border-amber-400 hover:text-white">
             Add Note
           </button>
         </div>
