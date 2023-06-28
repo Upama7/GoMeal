@@ -19,8 +19,8 @@ function RtopSideImage() {
   return (
     <>
       <div className="flex gap-4 items-center">
-        {image.map(({ src, alt }) => (
-          <div key={src}>
+        {image.map(({ src, alt }, index) => (
+          <div key={index}>
             <img className="" src={`./Assets/${src}.png`} alt="" />
           </div>
         ))}

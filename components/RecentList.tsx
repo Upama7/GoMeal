@@ -40,7 +40,7 @@ function RecentList() {
   return (
     <>
       <div className="flex justify-center gap-8">
-        {popular.map(({ name, src, alt }, index: any) => (
+        {popular.map(({ name, src, alt }, index) => (
           <div
             key={index}
             className="bg-white rounded-2xl  flex flex-col justify-center items-center relative py-20 px-20"

@@ -41,7 +41,7 @@ function PopularList() {
   return (
     <>
       <div className="flex justify-center items-center gap-8">
-        {popular.map(({ name, src, alt }, index: any) => (
+        {popular.map(({ name, src, alt }, index) => (
           <div
             key={index}
             className="bg-white rounded-2xl  relative py-8 px-14"

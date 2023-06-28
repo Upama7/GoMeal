@@ -38,9 +38,9 @@ function CategoryList() {
   return (
     <>
       <div className="flex flex-wrap justify-around items-center gap-4">
-        {category.map(({ name, src, alt }: any) => (
+        {category.map(({ name, src, alt }, index: any) => (
           <div
-            key={name}
+            key={index}
             className="flex flex-col justify-center items-center bg-white rounded-2xl  gap-2 w-40 h-40"
           >
             <img src={`./Assets/${src}.png`} alt={alt} />

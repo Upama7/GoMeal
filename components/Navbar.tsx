@@ -54,9 +54,9 @@ function Navbar() {
   return (
     <>
       <nav className="flex flex-col  space-y-6 ">
-        {nav.map(({ name, src, path }) => (
+        {nav.map(({ name, src, path }, index) => (
           <div
-            key={name}
+            key={index}
             className={`${
               pathname === path ? "bg-amber-400 rounded-xl text-white   " : ""
             } flex items-center  gap-10 px-8  py-4  hover:text-white hover:bg-amber-400 hover:rounded-xl `}
