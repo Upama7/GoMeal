@@ -25,8 +25,8 @@ function CategoryList() {
     },
     {
       name: "Pizza",
-      src: "Fast",
-      alt: "fast",
+      src: "Baked",
+      alt: "baked",
     },
     {
       name: "Seafood",
