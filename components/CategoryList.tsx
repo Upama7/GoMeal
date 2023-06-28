@@ -25,7 +25,7 @@ function CategoryList() {
     },
     {
       name: "Pizza",
-      src: "fast",
+      src: "Fast",
       alt: "fast",
     },
     {
